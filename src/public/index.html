@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Purble Place</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="screencapture.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<div id="buttons">
+			<button id="difficulty">Mode: -</button>
+			<button id="restart">restart game</button>
+			<div id="colorclick">-</div>
+		</div>
+		<div id="bar">
+			<div id="left">
+				<div id="cake"></div>
+				<div id="cakeslices"></div>
+			</div>
+			<div id="screen">
+				<canvas id="canvas"></canvas>
+				<video id="video" autoplay></video>
+				<img id="bg" src=""/>
+			</div>
+			<div id="right">
+				<div id="speedrunStatus"></div>
+			</div>
+		</div>
+	</body>
+</html>
